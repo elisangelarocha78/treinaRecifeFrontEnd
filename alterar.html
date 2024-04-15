@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alterar Cliente</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Meu Primeiro Sistema Front End - Alterar Cadastro de Clientes</h1>
     <div><a href="index.html">Home</a></div>
     <div><a href="meucurriculum.html">Meu currículo</a></div>
@@ -17,119 +16,180 @@
     <div><a href="alterar.html">Alterar Clientes</a></div>
     <div><a href="listar.html">Listar Clientes</a></div>
     <div><a href="remover.html">Remover Clientes</a></div>
-    <br>
+    <br />
     <div>
-        <form action="" method="post" id="meuform">
+      <form action="" method="post" id="meuform">
+        <div class="">
+          <div class="" id="">
+            <label class="" for="nome">Nome:</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              size="100"
+              placeholder="Informe o nome"
+              class=""
+              value="Elisangela"
+            />
+          </div>
+          <div class="" id="">
+            <label class="">CPF:</label>
+            <input class=""type="text"id="cpf"name="cpf"value="111.111.111-11">
+          </div>
+          <div class="" id="">
+            <label class="">CNPJ:</label>
+            <input
+              class=""
+              type="text"
+              id="cnpj"
+              name="cnpj"
+              value="99.999.999/9999-99"
+            />
+          </div>
+          <div class="">
+            <label class="">RG:</label>
+            <input type="text" class="" id="rg" name="rg" value="1.111.111" />
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <label class="">Senha:</label>
+            <input
+              type="password"
+              class=""
+              id="senha"
+              name="senha"
+              size="30"
+              value="Minha senha"
+            />
+          </div>
+          <div class="">
+            <label class="">E-mail:</label>
+            <input
+              type="email"
+              class=""
+              id="email"
+              name="email"
+              size="60"
+              value="elisangelarocha@dev.com"
+            />
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <label class="">Data de Nascimento:</label>
+            <input
+              type="date"
+              class=""
+              id="datanascimento"
+              name="datanascimento"
+              value="1978-05-21"
+            />
+          </div>
+          <div class="">
+            <label class="">Escolha o Sexo de Nascimento:</label>
             <div class="">
-                <div class="" id="">
-                    <label class="" for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" size="100" placeholder="Informe o nome" class=""
-                        value="Elisangela">
-                </div>
-                <div class="" id="">
-                    <label class="">CPF:</label>
-                    <input class="" type="text" id="cpf" name="cpf" value="111.111.111-11">
-                </div>
-                <div class="" id="">
-                    <label class="">CNPJ:</label>
-                    <input class="" type="text" id="cnpj" name="cnpj" value="99.999.999/9999-99">
-                </div>
-                <div class="">
-                    <label class="">RG:</label>
-                    <input type="text" class="" id="rg" name="rg" value="1.111.111">
-                </div>
-            </div>
-            <div class="">
-                <div class="">
-                    <label class="">Senha:</label>
-                    <input type="password" class="" id="senha" name="senha" size="30" value="Minha senha">
-                </div>
-                <div class="">
-                    <label class="">E-mail:</label>
-                    <input type="email" class="" id="email" name="email" size="60" value="elisangelarocha@dev.com">
-                </div>
-            </div>
-            <div class="">
-                <div class="">
-                    <label class="">Data de Nascimento:</label>
-                    <input type="date" class="" id="datanascimento" name="datanascimento" value="1978-05-21">
-                </div>
-                <div class="">
-                    <label class="">Escolha o Sexo de
-                        Nascimento:</label>
-                    <div class="">
-                        <input type="radio" class="" id="radiomasculino" name="sexo" value="M" checked>
-                        <label class="" for="M">Masculino</label>
-                    </div>
-                    <div class="">
-                        <input type="radio" class="" id="radiofeminino" name="sexo" value="F">
-                        <label class="" for="F">Feminino</label>
-                    </div>
-                    <div class="">
-                        <input type="radio" class="" id="radionaoinformado" name="sexo" value="NI">
-                        <label class="" for="NI">Não
-                            informado</label>
-                    </div>
-                </div>
-            </div>
-            <div class=" ">
-                <!--UFs:-->
-       
-        <label class="">UF:</label>
-        <select id="uf" name="uf" class="">
-                <option value="">Selecione</option>
-                <option value="AC">Acre</option>
-                <option value="AL">Alagoas</option>
-                <option value="AP">Amapá</option>
-                <option value="AM">Amazonas</option>
-                <option value="BA">Bahia</option>
-                <option value="CE">Ceará</option>
-                <option value="DF">Distrito Federal</option>
-                <option value="ES">Espirito Santo</option>
-                <option value="GO">Goiás</option>
-                <option value="MA">Maranhão</option>
-                <option value="MS">Mato Grosso do Sul</option>
-                <option value="MT">Mato Grosso</option>
-                <option value="MG">Minas Gerais</option>
-                <option value="PA">Pará</option>
-                <option value="PB">Paraíba</option>
-                <option value="PR">Paraná</option>
-                <option value="PE">Pernambuco</option>
-                <option value="PI">Piauí</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="RN">Rio Grande do Norte</option>
-                <option value="RS">Rio Grande do Sul</option>
-                <option value="RO">Rondônia</option>
-                <option value="RR">Roraima</option>
-                <option value="SC">Santa Catarina</option>
-                <option value="SP">São Paulo</option>
-                <option value="SE">Sergipe</option>
-                <option value="TO">Tocantins</option>
-            </select>
-            </div>
-            <div class=" ">
-                <label class="">Fale sobre você:</label>
-                <textarea class="" name="falesobrevoce" id="falesobrevoce" s="5" s="30">Falando um pouco sobre mim...</textarea>
+              <input
+                type="radio"
+                class=""
+                id="radiomasculino"
+                name="sexo"
+                value="M"
+                checked
+              />
+              <label class="" for="M">Masculino</label>
             </div>
             <div class="">
-                <input type="checkbox" class="" id="liaceito" name="liaceito" value="li" checked>
-                <label class="" for="check1">Li e
-                    concordo</label>
+              <input
+                type="radio"
+                class=""
+                id="radiofeminino"
+                name="sexo"
+                value="F"
+              />
+              <label class="" for="F">Feminino</label>
             </div>
-            <div class=" ">
-                <input type="reset" value="Limpar" class="">
-                <input type="button" id="btn1" value="Enviar" class="" onclick="">
+            <div class="">
+              <input
+                type="radio"
+                class=""
+                id="radionaoinformado"
+                name="sexo"
+                value="NI"
+              />
+              <label class="" for="NI">Não informado</label>
             </div>
-            <div class=" " id="mensagemerro">
+          </div>
+        </div>
+        <div class=" ">
+          <!--UFs:-->
 
-            </div>
-            
-        </form>
+          <label class="">UF:</label>
+          <select id="uf" name="uf" class="">
+            <option value="">Selecione</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espirito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </div>
+        <div class=" ">
+          <label class="">Fale sobre você:</label>
+          <textarea
+            class=""
+            name="falesobrevoce"
+            id="falesobrevoce"
+            s="5"
+            s="30"
+          >
+Falando um pouco sobre mim...</textarea
+          >
+        </div>
+        <div class="">
+          <input
+            type="checkbox"
+            class=""
+            id="liaceito"
+            name="liaceito"
+            value="li"
+            checked
+          />
+          <label class="" for="check1">Li e concordo</label>
+        </div>
+        <div class=" ">
+          <input type="reset" value="Limpar" class="" />
+          <input type="button" id="btn1" value="Enviar" class="" onclick="" />
+        </div>
+        <div class=" " id="mensagemerro"></div>
+      </form>
     </div>
-    <div class="botoes"><br><br>
-        <a href="index.html"><button>Voltar</button></a>
-        <a href="listar.html"><button>Avançar</button></a>
+    <div class="botoes">
+      <br /><br />
+      <a href="index.html"><button>Voltar</button></a>
+      <a href="listar.html"><button>Avançar</button></a>
     </div>
-</body>
-
+  </body>
 </html>
